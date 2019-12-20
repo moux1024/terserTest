@@ -1,0 +1,23 @@
+{
+  "name": "tersertest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "terser --comments '@__PURE__1' -all -- X.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moux1024/terserTest.git"
+  },
+  "author": "xt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moux1024/terserTest/issues"
+  },
+  "homepage": "https://github.com/moux1024/terserTest#readme",
+  "dependencies": {
+    "terser": "^4.4.3"
+  }
+}
